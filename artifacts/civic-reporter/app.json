@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Civic Reporter",
+    "slug": "civic-reporter",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "civic-reporter",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": false
+    },
+    "android": {
+      "package": "com.sreedhanya.civicreporter"
+    },
+    "web": {
+      "favicon": "./assets/images/icon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "35d29896-ddff-4cbe-be60-af7ee9478774"
+      }
+    },
+    "owner": "sreedhanya"
+  }
+}
